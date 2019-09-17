@@ -1,0 +1,16 @@
+
+curl -X POST "http://localhost:9200/esfaq/faq" -H 'Content-Type: application/json' -d'
+ {
+    "faqId" : "FAQ-1",
+    "category" : "General",
+    "question" : "what is neft",
+    "answer" : "NEFT is a type of funds transfer with minimum transfer required to be RS. 100"
+ }
+
+ curl -X POST "http://localhost:9200/esfaq/faq" -H 'Content-Type: application/json' -d'
+ {
+    "faqId" : "FAQ-2",
+    "category" : "General",
+    "question" : "what is imps",
+    "answer" : "IMPS is a type of funds transfer with minimum transfer required to be RS. 2,00,000"
+ }
